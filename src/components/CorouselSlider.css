@@ -1,0 +1,32 @@
+#carouselExampleIndicators{
+    box-shadow: 0 1rem 1rem rgba(0,0,0,.1);
+}
+
+.carousel-inner{
+    max-height: 500px !important;
+}
+
+.carousel-label{
+    margin-bottom: 160px;
+}
+
+.img{
+    object-fit: cover !important;
+    height: 500px;
+}
+
+
+.card-img-top {
+    width: 100%;
+    height: 15rem;
+    object-fit: cover;
+}
+
+/* if screen width greater than 800px */
+@media screen and (min-width : 800px){
+    .card-img-top {
+        width: 100%;
+        height: 20vw;
+        object-fit: cover;
+    }
+}
